@@ -26,7 +26,7 @@ scale = 0.8
 
 # then this is our face detection file that we can detect faces
 # which is one of the cascade classfires you can download in internet
-face_detection = cv2.CascadeClassifier('E:/Pycharm/module/haarcascade_frontalface_default.xml')
+face_detection = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # then we need our two files for object detection which are mobile ssd and froxen file (weight)
 config_file = 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
 weight_file = 'frozen_inference_graph.pb'
